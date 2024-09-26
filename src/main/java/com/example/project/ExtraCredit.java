@@ -65,7 +65,7 @@ public class ExtraCredit {
         
         if (!"-1".equals(name)) {
             items += name;
-            items += "\n";;
+            items += "\n";
         }
 
         while (!"-1".equals(name)) { //I learned this from https://stackoverflow.com/questions/8484668/java-does-not-equal-not-working
@@ -73,7 +73,7 @@ public class ExtraCredit {
             name = scan.nextLine();
             if (!"-1".equals(name)) {
                 items += name;
-                items += "\n";;
+                items += "\n";
             }
         }
 
